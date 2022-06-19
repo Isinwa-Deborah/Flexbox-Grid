@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca";
+}
+
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first-box{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 33.3%
+}
+
+.second-box{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width:33.3%
+}
+
+.third-box{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width:33.3%
+}
+
+h1{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 2px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 50px;
+    height: 31.25px;
+}
+
+button{
+    margin-top: 50px;
+    font-family:"Lexend Deca" sans-serif;
+    font-weight: 400;
+}
+
+.button-one{
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.button-one a{
+    color: hsl(31, 77%, 52%);
+}
+
+.button-two{
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.button-two a{
+    color: hsl(184, 100%, 22%);
+}
+
+.button-three{
+    background-color: hsl(0, 0%, 95%);
+    border: 0;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    width: 110px;
+}
+
+.button-three a{
+    color: hsl(179, 100%, 13%);
+}
+
+a:hover{
+    color: hsl(0, 0%, 95%);
+}
+
+#btn1:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#btn2:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+#btn3:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (max-width: 375px){
+    main{
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+
+    .first-box, .second-box, .third-box{
+        min-width: 250px;
+    }
+}
